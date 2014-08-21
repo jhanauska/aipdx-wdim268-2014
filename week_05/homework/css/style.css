@@ -1,0 +1,82 @@
+@import url(http://fonts.googleapis.com/css?family=Lobster);
+body {
+	background-color: #CCC;
+}
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.wrapper {
+	margin: 1% 5%;
+	padding: 3%;
+	background-color: #FFF;
+	border-radius: 20px;
+	position: relative;
+	box-shadow: 0 0 1em #777;
+}
+.seperate {
+	margin: 5% 0;
+}
+.mainnav {
+	display: inline-block;
+	padding: 5px;
+	height: 4%;
+	background-color: #777;
+	font-size: .6em;
+}
+.mainnav a {
+	color: white;
+	}
+.firstnav {
+	border-bottom-left-radius: 5px;
+	border-top-left-radius: 5px;
+	}
+.lastnav {
+	border-bottom-right-radius: 5px;
+	border-top-right-radius: 5px;
+	}
+.pagetitle {
+	font-family: 'Lobster', cursive;
+	color: #CCC;
+	font-size: 4em;
+	margin-top: 3%;
+	margin-bottom: 3%;
+}
+article {
+	width:75%;
+	float: left;
+}
+.title a{
+	color: #7AF;
+}
+.posttitle {
+	font-size: 2em;
+}
+.subtitle {
+	font-size: 1.5em;
+}
+.fig {
+	width: 23%;
+	padding: 2%;
+	background-color: #EEE;
+	float: right;
+	margin: 2%;
+}
+aside{
+	margin-top: 4%;
+	float: right;
+	width: 24%;
+}
+.archtitle {
+	color: #777;
+}
+.archive {
+	color: #7AF;
+	padding: 2px 0;
+}
+footer {
+	float: left;
+	width: 100%;
+}
+

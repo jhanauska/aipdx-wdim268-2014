@@ -1,5 +1,8 @@
 /* v1.0 | 20080212 */
-
+* {
+	box-sizing: border-box;
+	font-family: verdana;
+}
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -23,8 +26,12 @@ body {
 ol, ul {
 	list-style: none;
 }
+a {
+	text-decoration: none;
+}
 blockquote, q {
 	quotes: none;
+	font-family: georgia;
 }
 blockquote:before, blockquote:after,
 q:before, q:after {
@@ -50,3 +57,6 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
+small{
+	font-size: 70%;
+};
